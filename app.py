@@ -264,7 +264,7 @@ with tab1:
     # TODO 6: x, y 파라미터를 입력하세요 ⭐⭐
     # 정답: x=decade_counts.index, y=decade_counts.values
     fig = px.bar(
-        decade_counts , index, decade_counts.values,
+        x=decade_counts.index, y=decade_counts.values,
         title="연대별 콘텐츠 수",
         labels={'x': '연대', 'y': '콘텐츠 수'},
         color_discrete_sequence=['#E50914']
