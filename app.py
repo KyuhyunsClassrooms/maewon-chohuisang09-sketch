@@ -276,7 +276,7 @@ with tab1:
     
     # TODO 13: 슬라이더로 상위 N개 선택 ⭐⭐
     # 정답: st.slider, default값은 10
-    top_n = st.slider, default(
+    top_n = st.slider(
         "상위 N개 국가 선택",
         min_value=5,
         max_value=20,
